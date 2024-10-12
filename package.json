@@ -1,0 +1,23 @@
+{
+  "name": "photoshop-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "ag-psd": "^21.0.1",
+    "coffee": "^5.5.1",
+    "pinia": "^2.1.7",
+    "psd": "^3.4.0",
+    "psd.js": "^3.9.0",
+    "vue": "^3.4.29",
+    "vue-router": "^4.3.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "vite": "^5.3.1"
+  }
+}
