@@ -16,7 +16,7 @@
 <script setup>
 const links = [
   { name: "Home", to: "/" },
-  { name: "About", to: "/about" },
   { name: "Photoshop File Upload", to: "/photoshop-file-upload" },
+  { name: "Image Type Changer", to: "/image-type-convertor" },
 ];
 </script>

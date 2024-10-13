@@ -9,10 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "ag-psd": "^21.0.1",
-    "coffee": "^5.5.1",
+    "browser-image-compression": "^2.0.2",
     "pinia": "^2.1.7",
-    "psd": "^3.4.0",
     "psd.js": "^3.9.0",
     "vue": "^3.4.29",
     "vue-router": "^4.3.3"

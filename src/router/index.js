@@ -15,14 +15,14 @@ const router = createRouter({
           component: () => import("../views/HomeView.vue"),
         },
         {
-          path: "/about",
-          name: "about",
-          component: () => import("../views/AboutView.vue"),
-        },
-        {
           path: "/photoshop-file-upload",
           name: "photoshop-file-upload",
           component: () => import("@/views/photoshop-uploader/index.vue"),
+        },
+        {
+          path: "/image-type-convertor",
+          name: "image-type-convertor",
+          component: () => import("@/views/ImageTypeChanger/index.vue"),
         },
       ],
     },
