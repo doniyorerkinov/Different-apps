@@ -15,6 +15,11 @@ const router = createRouter({
           component: () => import("../views/HomeView.vue"),
         },
         {
+          path: "/dynamic-form",
+          name: "dynamic-form",
+          component: () => import("@/views/dynamic-form/index.vue"),
+        },
+        {
           path: "/photoshop-file-upload",
           name: "photoshop-file-upload",
           component: () => import("@/views/photoshop-uploader/index.vue"),
@@ -23,6 +28,11 @@ const router = createRouter({
           path: "/image-type-convertor",
           name: "image-type-convertor",
           component: () => import("@/views/ImageTypeChanger/index.vue"),
+        },
+        {
+          path: "/image-size-copressor",
+          name: "image-size-copressor",
+          component: () => import("@/views/image-size-compressor/index.vue"),
         },
       ],
     },
