@@ -15,9 +15,9 @@ const router = createRouter({
           component: () => import("../views/HomeView.vue"),
         },
         {
-          path: "/dynamic-form",
-          name: "dynamic-form",
-          component: () => import("@/views/dynamic-form/index.vue"),
+          path: "/yandex-maps",
+          name: "yandex-maps",
+          component: () => import("@/views/yandex-maps/index.vue"),
         },
         {
           path: "/photoshop-file-upload",
