@@ -20,5 +20,6 @@ const links = [
   { name: "Image Size Compressor", to: "/image-size-copressor" },
   { name: "Photoshop File Upload", to: "/photoshop-file-upload" },
   { name: "Image Type Changer", to: "/image-type-convertor" },
+  { name: "Carousel", to: "/carousel" },
 ];
 </script>

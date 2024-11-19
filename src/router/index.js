@@ -34,6 +34,11 @@ const router = createRouter({
           name: "image-size-copressor",
           component: () => import("@/views/image-size-compressor/index.vue"),
         },
+        {
+          path: "/carousel",
+          name: "carousel",
+          component: () => import("@/views/carousel/index.vue"),
+        },
       ],
     },
   ],
