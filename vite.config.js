@@ -1,5 +1,5 @@
 import { fileURLToPath, URL } from "node:url";
-
+import { VitePWA } from "vite-plugin-pwa";
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 
@@ -14,6 +14,7 @@ export default defineConfig({
         },
       },
     }),
+    VitePWA({ registerType: "autoUpdate" }),
   ],
   resolve: {
     alias: {
