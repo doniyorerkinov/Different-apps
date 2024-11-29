@@ -7,14 +7,15 @@ import vue from "@vitejs/plugin-vue";
 export default defineConfig({
   plugins: [
     vue({
-      template: {
-        compilerOptions: {
-          // treat all components starting with `my-lit` as custom elements
-          isCustomElement: (tag) => tag.includes("dynamic-form"),
-        },
+      template: {},
+    }),
+    VitePWA({
+      registerType: "autoUpdate",
+      injectRegister: "auto",
+      devOptions: {
+        enabled: true,
       },
     }),
-    VitePWA({ registerType: "autoUpdate" }),
   ],
   resolve: {
     alias: {
