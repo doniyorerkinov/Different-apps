@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "target": "esnext",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "strict": true,
+      "jsx": "preserve",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "resolveJsonModule": true,
+      "allowSyntheticDefaultImports": true,
+      "lib": ["dom", "esnext"],
+      "types": ["vite/client"]
+    },
+    "include": [
+      "src/**/*",
+      "node_modules/@types/**/*.d.ts"
+    ],
+    "exclude": ["node_modules"]
+  }
+  

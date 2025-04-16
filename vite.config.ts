@@ -63,13 +63,6 @@ export default defineConfig({
     minify: true,
     chunkSizeWarningLimit: 1600,
   },
-  css: {
-    preprocessorOptions: {
-      scss: {
-        additionalData: `@use "@/styles/mixins.scss" as *;`,
-      },
-    },
-  },
   optimizeDeps: {
     entries: ["./src/**/*.vue"],
   },

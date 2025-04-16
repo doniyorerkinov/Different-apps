@@ -1,11 +1,8 @@
-<script setup>
-import { useRoute } from "vue-router";
+<script setup lang="ts">
 import Header from "./Header.vue";
-
-const route = useRoute();
 </script>
 <template>
-  <div>
+  <div class="h-screen bg-gray-300">
     <Header />
     <main class="main" id="main">
       <router-view v-slot="{ Component }">

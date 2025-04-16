@@ -1,9 +1,7 @@
 <template>
-  <div>Home</div>
+  <div class="p-8">Home</div>
 </template>
 
-<script>
-export default {};
-</script>
+<script setup lang="ts"></script>
 
 <style lang="scss" scoped></style>
