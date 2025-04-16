@@ -14,12 +14,5 @@
 </template>
 
 <script setup>
-const links = [
-  { name: "Home", to: "/" },
-  { name: "Yandex Maps", to: "/yandex-maps" },
-  { name: "Image Size Compressor", to: "/image-size-copressor" },
-  { name: "Photoshop File Upload", to: "/photoshop-file-upload" },
-  { name: "Image Type Changer", to: "/image-type-convertor" },
-  { name: "Carousel", to: "/carousel" },
-];
+const links = [{ name: "Home", to: "/" }];
 </script>
