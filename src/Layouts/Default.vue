@@ -2,7 +2,7 @@
 import Header from "./Header.vue";
 </script>
 <template>
-  <div class="h-screen bg-gray-300">
+  <div class="h-screen">
     <Header />
     <main class="main" id="main">
       <router-view v-slot="{ Component }">
