@@ -1,9 +1,6 @@
 <template>
   <div class="p-8 flex flex-col items-center gap-6">
-    <Input type="text" />
-    <Input type="number" />
-    <Input type="checkbox" id="checkbox" />
-    <Input type="textarea" />
+    
   </div>
 </template>
 
