@@ -8,7 +8,6 @@
     >
       + Add task
     </button>
-    
     <div v-else class="space-y-2">
       <input
         v-model="taskName"
