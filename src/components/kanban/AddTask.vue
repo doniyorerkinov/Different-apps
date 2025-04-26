@@ -4,7 +4,7 @@
     <button 
       @click="showForm = true"
       v-if="!showForm"
-      class="w-full text-left text-gray-500 hover:text-gray-700"
+      class="px-2 py-1 rounded-md text-left text-gray-500 hover:text-gray-700 text-primary hover:bg-primary hover:text-white"
     >
       + Add task
     </button>
@@ -24,13 +24,13 @@
       <div class="flex gap-2">
         <button 
           @click="addTask"
-          class="px-3 py-1 bg-blue-500 text-white rounded"
+          class="px-3 py-1 bg-blue-600 text-white rounded"
         >
           Add
         </button>
         <button 
           @click="cancel"
-          class="px-3 py-1 bg-gray-200 rounded"
+          class="px-3 py-1 bg-gray-200 rounded bg-red-600"
         >
           Cancel
         </button>

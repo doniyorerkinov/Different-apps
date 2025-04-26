@@ -9,7 +9,7 @@
         type: 'column',
         columnId: column.columnId
       }"
-      class="p-4 bg-primary text-white rounded-lg shadow"
+      class="p-4 glass-effect text-white rounded-lg shadow"
     >
       <div class="flex justify-between items-center mb-2">
         <h3 class="font-semibold">{{ column.name }}</h3>
@@ -85,3 +85,30 @@ function deleteColumn() {
   }
 }
 </script>
+<style scoped>
+.glass-effect {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.glass-task {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Optional: Add hover effect */
+.glass-effect:hover {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.5);
+}
+
+/* Ensure text is readable on glass background */
+.font-semibold, .font-medium {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+</style>
