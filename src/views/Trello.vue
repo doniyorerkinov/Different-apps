@@ -62,5 +62,4 @@ function CloseModal() {
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #a8a8a8;
-}
-</style>
+}</style>

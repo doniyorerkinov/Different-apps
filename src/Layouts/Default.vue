@@ -1,19 +1,21 @@
 <script setup lang="ts">
+import { useRoute } from "vue-router";
 import Header from "./Header.vue";
+const route = useRoute()
+console.log(route.fullPath);
+
 </script>
 
 <template>
   <div class="h-screen flex flex-col">
-    <Header />
-    <main class="flex-1 main" id="main">
+    <Header class="fixed top-0 z-[50]" />
+    <main class="flex-1 relative mt-12">
       <!-- Background image container -->
-      <div class="absolute inset-0 -z-10 overflow-hidden">
-        <img 
+        <img  v-if="route.fullPath == '/trello'"
           src="../assets/bg.webp" 
           alt="Background"
-          class="w-full h-full object-cover "
+          class="w-screen h-screen object-cover fixed inset-0 -z-10 overflow-hidden"
         >
-      </div>
       
       <!-- Content with semi-transparent backdrop -->
       <div class="relative h-full">
@@ -28,10 +30,7 @@ import Header from "./Header.vue";
 </template>
 
 <style scoped>
-/* Ensure main takes full available space */
-.main {
-  position: relative;
-}
+
 
 /* Transition styles */
 .fade-enter-active,
