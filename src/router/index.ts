@@ -4,7 +4,7 @@ const router = createRouter({
   routes: [
     {
       path: "/main",
-      component: () => import("@/Layouts/Default.vue"),
+      component: () => import("../Layouts/Default.vue"),
       children: [
         {
           path: "/main",
@@ -14,6 +14,10 @@ const router = createRouter({
           path: "/",
           component: () => import("../views/HomeView.vue"),
         },
+        {
+          path: '/trello',
+          component: () => import("../views/Trello.vue")
+        }
       ],
     },
   ],
