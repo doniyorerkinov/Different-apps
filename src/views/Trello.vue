@@ -44,6 +44,8 @@ function addNewColumn() {
 function CloseModal() {
   openModal.value = false
 }
+console.log(1111);
+
 </script>
 
 <style scoped>
